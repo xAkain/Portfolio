@@ -1,0 +1,38 @@
+#Portfolio{
+    height: 100px;
+    width: 100vmax;
+    background-color: #212922;
+    color: #5B8266;
+   /* color: #294936;
+    color: #3E6259;
+    color: #5B8266;
+    color: #AEF6C7; */
+}
+#About{
+    height: 200px;
+    width: 100vmax;
+    background-color:#294936 ;
+    color:#AEF6C7 ;
+}
+#Contact{
+    height: 300px;
+    width: 100vmax;
+    background-color: #5B8266;
+    color: #212922;
+}
+#Myskills{
+    width: 100vmax;
+    background-color: #5B8266;
+    color: #AEF6C7;
+}
+#footer{
+    height: 50px;
+    width: 100vmax;
+    background-color: #AEF6C7;
+    color: #212922;
+}
+#video{
+    background-color: #3E6259;
+    height: auto;
+    width: 100vmax;
+}

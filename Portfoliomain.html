@@ -9,13 +9,13 @@
 
 </head>
 <body>
-    <header> <pre> <h1>MY PORTFOLIO</h1> </pre> </header>
+    <div id="Portfolio">
+    <header> 
+        <pre> <h1 style="text-align: center;">MY PORTFOLIO</h1> </pre> 
+    </header>
+    </div>
     <main> 
-        <h2>About Me</h2> <br>
-
-
-
-
+       <div id="About"> <h2 style="text-align: center;">About Me</h2>
 
     <section><h3>Education</h3> 
         <ul>
@@ -23,10 +23,12 @@
             <li><b>Delhi Technical Campus(GGSIPU) B-Tech :</b> First Year[8.0] </li>
         </ul>
     </section>
+
     <section><b>Projects</b> : Project 1, Project 2, Project 3</section>
     <article><b>Skills</b> : HTML, CSS, JavaScript, Python, C++</article>
-    <aside><b>Hobbies</b> : Reading, Traveling, Drawing</aside> <br> <br>
-    <h2>Contact Info</h2>
+    <aside><b>Hobbies</b> : Reading, Traveling, Drawing</aside> </div>
+    <div id="Contact">
+    <h2 style="text-align: center;">Contact Info</h2>
     <p>
         <section><b>Phone</b> :9911227265 </section><br>
     <section><b>Email</b> : arshaan.ahmad8@gmail.com</section><br>
@@ -35,15 +37,12 @@
     <section><b>Resume</b> : <a href="resume.pdf" target="_blank">Download Resume</a></section><br>
 
     </p>   
-  <div><p>hello world</p>
-    <p>namaste</p>
-    <p>hi</p>
-  </div>
-  <span><p>goodbye</p> <!--Incline takes only its own width not total unlike block elements -->
-    <p>bye</p>
-    <p>ciao</p>
-  </span>
- <ul>
+    </div>
+  <div>
+
+ </div>
+
+ <!-- <ul >
     <li>HTML</li>
     <ul>
         <li>HTML5</li>
@@ -60,10 +59,11 @@
     </ul>
     <li>CSS</li>
     <li>JavaScript</li>
- </ol>
+ </ol> -->
+ <div id="Myskills">
  <table>
     <thead>
-    <caption><h3>My Skills</h3></caption>
+    <caption><h3> My Skills </h3></caption>
     <tr>
         <th>Skill</th>
         <th>Proficiency</th>
@@ -84,8 +84,13 @@
     </tr>
     </tbody>
  </table>
-    <video src="/Myvideo.mp4" width="560" height="315" controls>My Video</video>
-    <h5>&copy; 2026 My Portfolio. All rights reserved.</h5>
- </footer>
+ </div>
+ <div id="video"> 
+ <video id="myvideo"  src="/Myvideo.mp4" width="560" height="315" controls>My Video</video>
+ </div>  
+  <div id="footer">
+    <h5 style="text-align: center;">&copy; 2026 My Portfolio. All rights reserved.</h5>
+    </div>
+
 </body>
 </html>
